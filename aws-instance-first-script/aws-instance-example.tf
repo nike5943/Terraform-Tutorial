@@ -3,7 +3,7 @@ provider "aws"{
 }
 resource "aws_instance""server1"{
    count = "1"
-   ami = "ami-074251216af698218"
+   ami = "ami-068257025f72f470d"
    instance_type = "t2.micro"
    key_name = "devops_ec2_jenkins"
    tags={
